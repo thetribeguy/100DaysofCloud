@@ -10,24 +10,24 @@
 5. Update your main README to link back to your Day Journey article
 4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
+## Ayo's Cloud Journey
 
-## [✍️ Your Name]'s Cloud Journey
+Hey! My name is Ayo and you've stubmled upon my 100 Days of Cloud Project!
+I am relativly new to Cloud Computing and decided to document my journey as I complete this project.
 
-[✍️ Introduce yourself]
+I am a 2x Certfied AWS Cloud Architect but admittedly lack real life expereince! So I decided to start this challenge in hopes of no only building hands on skills but grow my network.
 
-[✍️ Tell us why you started this challenge]
+At the end of this challenge, I hope to achieve my third certification and gain reliable real life skills as an architect to be used in the workplace!
 
-[✍️ Tell us where you want to be at the end of the challenge]
+I will also be documenting this heavily on Instagram, sharing tips, guides, and mini tutorials on how to complete some of these tasks.
+- [✍️ Link to my Instagram](https://instagram.com/thetribeguy)
+- [✍️ Link to my Twitter](https://twitter.com/thetribeguy)
+- [✍️ Link to my LinkedIn](https://www.linkedin.com/in/ayokanmi-omolewa/)
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+## Looking at the sky
 
-## Stepping out the door
-
-- [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
+- [ ] ☁️ 0 > Day 0(Journey/001/Readme.md)
+- [ ] ☁️ 1 > Day 1(Journey/001/Readme.md)
 - [ ] ☁️ 2 > [](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
