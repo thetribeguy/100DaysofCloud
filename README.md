@@ -26,8 +26,8 @@ I will also be documenting this heavily on Instagram, sharing tips, guides, and 
 
 ## Looking at the sky
 
-- [ ] ☁️ 0 > Day 0(Journey/001/Readme.md)
-- [ ] ☁️ 1 > Day 1(Journey/001/Readme.md)
+- [ ] ☁️ Day 0 [](Journey/001/Readme.md)
+- [ ] ☁️ Day 1 [](Journey/001/Readme.md)
 - [ ] ☁️ 2 > [](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
