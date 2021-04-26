@@ -20,7 +20,7 @@ I am a 2x Certfied AWS Cloud Architect but admittedly lack real life expereince!
 At the end of this challenge, I hope to achieve my third certification and gain reliable real life skills as an architect to be used in the workplace!
 
 I will also be documenting this heavily on Instagram, sharing tips, guides, and mini tutorials on how to complete some of these tasks.
-- [✍️ Link to my Instagram](https://instagram.com/thetribeguy)
+- [✍️ Link to my Instagram](https://instagram.com/tribe.cloud)
 - [✍️ Link to my Twitter](https://twitter.com/thetribeguy)
 - [✍️ Link to my LinkedIn](https://www.linkedin.com/in/ayokanmi-omolewa/)
 
