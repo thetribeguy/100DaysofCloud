@@ -1,5 +1,5 @@
 
-# Day 2 - Create IAM users and groups
+# Day 2 - Create IAM users, groups, roles, and policy
 
 ## Introduction
 
@@ -96,6 +96,56 @@ Search for AmazonEC2ReadOnlyAccess in the search box and select the policy Amazo
 Search for AmazonS3ReadOnlyAccess in the search box and select the policy AmazonS3ReadOnlyAccess.
 
 Review all details and click on Create group.
+
+### Step 6 - Create Roles
+In the IAM dashboard, on the left side, select Roles.
+Click on Create role.
+For Select type of trusted entity, choose EC2. Then click Next: Permissions
+![image](https://user-images.githubusercontent.com/82836111/138777478-519d06c0-db02-47a0-a187-75b3e151365b.png)
+
+In Attach permissions policies, type EC2 in the Filter Policies and select AmazonEC2FullAccess
+![image](https://user-images.githubusercontent.com/82836111/138777530-dabe4e5b-383d-4785-b84e-be936ba88644.png)
+
+Click Next:tags (optiona), then next: review.
+Enter a role name, and choose create role.
+
+Note:
+
+When you set up an AWS service environment, you must define a role for the service to assume. You can attach this Role to the AWS services. This service role must include all the permissions required for the service to access the AWS resources that it needs.
+
+This allows EC2 to perform actions on our behalf.
+
+### Step 7 - Create Policies
+
+In the IAM menu, select policies.
+Click on Create policy.
+
+Under Visual Editor, select choose a service. 
+
+Type EC2 in the search box and select EC2.
+![image](https://user-images.githubusercontent.com/82836111/138778409-92ecd289-7e18-47d4-85ba-fb90cdbeb841.png)
+
+In the Actions, specify the actions allowed in EC2. For this service, We'll choose List and Read.
+![image](https://user-images.githubusercontent.com/82836111/138778441-20abfe7f-1699-4be9-8853-bf695b510d3e.png)
+
+Click on Resources, scroll down and choose All resources so that there is no need to specify the resource ARN.
+Now scroll up and If you click on the JSON, you can see the policy we created.
+
+Click on Next: Tags. No changes needed.
+
+Click on Next: Review.
+
+Review:
+
+Name : Enter EC2Policy
+
+Description : Enter EC2 Full Read and List access
+
+In the Summary, you can see the Access level.
+
+Review the policy and then click on Create policy.
+![image](https://user-images.githubusercontent.com/82836111/138778510-e6de8878-57b9-41ea-874f-e819c1862522.png)
+
 
 
 ## Social Proof
