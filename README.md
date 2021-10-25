@@ -12,12 +12,12 @@
 
 ## Ayo's Cloud Journey
 
-Hey! My name is Ayo and you've stubmled upon my 100 Days of Cloud Project!
-I am relativly new to Cloud Computing and decided to document my journey as I complete this project.
+Hey, my name is Ayo and you've stubmled upon my 100 Days of Cloud Project!
+I am relatively new to Cloud Computing and decided to document my journey as I complete this project.
 
-I am a 2x Certfied AWS Cloud Architect but admittedly lack real life expereince! So I decided to start this challenge in hopes of no only building hands on skills but grow my network.
+Though i am 2x AWS certfied, I admittedly lack real life expereince. So I decided to start this challenge in hopes of not only building hands on skills but grow my network.
 
-At the end of this challenge, I hope to achieve my third certification and gain reliable real life skills as an architect to be used in the workplace!
+At the end of this challenge, I hope to achieve my third certification and gain reliable real life skills as an architect to be used in the workplace.
 
 I will also be documenting this heavily on Instagram, sharing tips, guides, and mini tutorials on how to complete some of these tasks.
 - [✍️ Link to my Instagram](https://instagram.com/cloud.tribe)
