@@ -106,7 +106,7 @@ For Select type of trusted entity, choose EC2. Then click Next: Permissions
 In Attach permissions policies, type EC2 in the Filter Policies and select AmazonEC2FullAccess
 ![image](https://user-images.githubusercontent.com/82836111/138777530-dabe4e5b-383d-4785-b84e-be936ba88644.png)
 
-Click Next:tags (optiona), then next: review.
+Click Next: tags (optional), then next: review.
 Enter a role name, and choose create role.
 
 Note:
