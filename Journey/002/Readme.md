@@ -1,49 +1,102 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Day 2 - Create IAM users and groups
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+What is IAM?
+Stands for Identity and Access Management.
 
-## Prerequisite
+Web service that helps the user securely control access to AWS resources.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Used to control who is authenticated and authorized to use AWS resources.
 
-## Use Case
+The primary resources in IAM are users, groups, roles, policies, and identity providers.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+IAM Group is a collection of IAM Users. You use groups to specify permissions for a collection of users, which can make those permissions easier to manage for those users.
 
-## Cloud Research
+IAM roles are like IAM Users in that they are both identities with permission policies that determine what the owner can access.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+IAM can be used from the AWS CLI, AWS SDK and AWS Management Console.
 
-## Try yourself
+![image](https://user-images.githubusercontent.com/82836111/138775539-57400b41-3a31-4efa-a1b4-ea1c698acbfa.png)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+### Step 1 — Create IAM user
 
-![Screenshot](https://via.placeholder.com/500x300)
+Click on "Services" and search/select "IAM" 
 
-### Step 1 — Summary of Step
+Select "Users" in the left panel and click on the "Add User" to create a new IAM user.
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 2
 
-### Step 3 — Summary of Step
+In the Set user details Section, 
 
-![Screenshot](https://via.placeholder.com/500x300)
+User name: Enter *name of your choice*
 
-## ☁️ Cloud Outcome
+Click on "add another user" and provide the name, *of your choice*
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### Step 3 
 
-## Next Steps
+In Select AWS access type section,
 
-✍️ Describe what you think you think you want to do next.
+Access key - Programmatic access: Uncheck
+
+PAssword - AWS Management Console access: Check
+
+Console password: 
+
+Auto Generated password : Uncheck
+
+Check Custom password and Enter *Password of your choice*
+
+Require password reset: Uncheck
+
+Click on Next: Permissions
+![image](https://user-images.githubusercontent.com/82836111/138776144-c2da7d6b-d422-4fe8-a0c9-61e93844bbee.png)
+
+No need to anything here. Click on Next: Tags
+
+### Step 4
+In Add Tags page:
+
+This is an optional step, but really helpful to search, manage and filter the resources. Provide the below details
+
+Key: Enter Dev-Team
+
+Value: Enter Developers
+
+Click on Next:Review 
+
+Review the details and click on the Create users.
+
+![image](https://user-images.githubusercontent.com/82836111/138776217-80a7976c-5fca-40f2-9e43-854670712485.png)
+
+Note: Ignore the above error if it appears while creating Users and click Close.
+
+Repeat the steps to create IAM users by name Ted, Rita with following details,
+
+Custom password: Enter *your choice*
+
+Key: Enter HR-Team
+
+Value: Enter HR
+
+### Step 5 - Create User Group
+Select the User groups in the left panel and click on the Create group.
+
+Set Group Name:
+User group name: Enter Dev-Team
+
+Scroll down and select your two IAM names under Add Users to the group.
+
+Scroll down to Attach permissions Policies section and,
+
+Search for AmazonEC2ReadOnlyAccess in the search box and select the policy AmazonEC2ReadOnlyAccess.
+
+Search for AmazonS3ReadOnlyAccess in the search box and select the policy AmazonS3ReadOnlyAccess.
+
+Review all details and click on Create group.
+
 
 ## Social Proof
 
