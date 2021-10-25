@@ -8,6 +8,7 @@ Account creation, access, and tour of AWS console.
 ## Prerequisite
 
 Register for an AWS account.
+Register: aws.amazon.com
 
 
 ### Step 1
@@ -15,6 +16,7 @@ Register for an AWS account.
 AWS Management Console is a web application that consists and refers to a complete collection of service consoles for managing your applications. When you log in, you see the console home page.
 
 Once logged into AWS Console, look around to explore what the homepage has to offer.
+
 Homepage: https://console.aws.amazon.com/
 
 ![image](https://user-images.githubusercontent.com/82836111/138773476-3892803c-fd84-4acf-a584-d69bf65946e6.png)
@@ -22,6 +24,8 @@ Homepage: https://console.aws.amazon.com/
 ### Step 2
 
 Click on "Services". Here you will find the whole list of AWS services available.
+
+### Step 3
 
 EXPLORE.
 
