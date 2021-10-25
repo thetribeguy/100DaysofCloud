@@ -15,11 +15,11 @@
 Hey, my name is Ayo and you've stubmled upon my 100 Days of Cloud Project!
 I am relatively new to Cloud Computing and decided to document my journey as I complete this project.
 
-Though i am 2x AWS certfied, I admittedly lack real life expereince. So I decided to start this challenge in hopes of not only building hands on skills but grow my network.
+Though I am 2x AWS certfied, I admittedly need more real life expereince. So, I decided to start this challenge in hopes of not only building hands-on skills but grow my network.
 
 I'll be using Whizlabs hands-on labs & content, as well as personal interest projects for this 100 days challenge. At the end of this challenge, I hope to achieve my third certification and gain reliable real life skills as an architect to be used in the workplace.
 
-I will also be documenting this heavily on Instagram, sharing tips, guides, and mini tutorials on how to complete some of these tasks.
+I will also be documenting my progress on Social media, sharing tips, guides, and mini tutorials on how to complete some of these tasks.
 - [✍️ Link to my Instagram](https://instagram.com/cloud.tribe)
 - [✍️ Link to my Twitter](https://twitter.com/thetribeguy)
 - [✍️ Link to my LinkedIn](https://www.linkedin.com/in/ayokanmi-omolewa/)
