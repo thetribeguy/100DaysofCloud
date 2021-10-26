@@ -26,7 +26,7 @@ I will also be documenting my progress on Social media, sharing tips, guides, an
 
 ## Looking at the sky
 
-- [ ] ☁️ Day 0 - Exploration [](Journey/001/Readme.md)
+- [ ] ☁️ Day 0 - [Exploration](Journey/001/Readme.md)
 - [ ] ☁️ Day 1 - IAM [](Journey/001/Readme.md)
 - [ ] ☁️ 2 > [](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [](Journey/003/Readme.md)
