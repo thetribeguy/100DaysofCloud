@@ -1,5 +1,5 @@
 
-# Day 1 - Create IAM users, groups, roles, and policy
+# Day 1 - IAM users, groups, roles, and policy
 
 ## Introduction
 
