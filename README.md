@@ -26,7 +26,7 @@ I will also be documenting my progress on Social media, sharing tips, guides, an
 
 ## Head in the Clouds
 
-Day 0 - [Exploration](Journey/001/Readme.md)
+Day 0 - [Exploration](Journey/000/Readme.md)
 
 Day 1 - [IAM](Journey/001/Readme.md)
 
