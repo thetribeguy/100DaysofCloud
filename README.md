@@ -10,7 +10,7 @@
 5. Update your main README to link back to your Day Journey article
 4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
-## Ayo's Cloud Journey
+## My Cloud Journey
 
 Hey, my name is Ayo and you've stubmled upon my 100 Days of Cloud Project!
 I am relatively new to Cloud Computing and decided to document my journey as I complete this project.
