@@ -30,7 +30,7 @@ Day 0 - [Exploration](Journey/000/Readme.md)
 
 Day 1 - [IAM](Journey/001/Readme.md)
 
-Day 2 - [t](Journey/002/Readme.md)
+Day 2 - [](Journey/002/Readme.md)
 
 Day 3 - [](Journey/003/Readme.md)
 
