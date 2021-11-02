@@ -30,9 +30,9 @@ Day 0 - [Exploration](Journey/000/Readme.md)
 
 Day 1 - [IAM](Journey/001/Readme.md)
 
-Day 2 - [](Journey/002/Readme.md)
+Day 2 - [Launching EC2 Machine and Connecting through Browser-Based SSH](Journey/002/Readme.md)
 
-Day 3 - [](Journey/003/Readme.md)
+Day 3 - [Create and Publish a web page via EC2](Journey/003/Readme.md)
 
 Day 4 - [](Journey/004/Readme.md)
 
