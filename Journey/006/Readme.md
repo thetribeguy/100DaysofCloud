@@ -1,52 +1,30 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+## Day 6 - Creating Cloudwatch Dashboard for EC2
+![image](https://user-images.githubusercontent.com/82836111/139921479-34024d99-c033-4bbd-a0f8-e50bc21f2746.png)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Complete Days 1-5
 
-## Use Case
+### Step 1 
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Navigate to Cloudwatch and click Dashboards.
+Click on create dashboard and enter a name.
 
-## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Step 2
+On the next page, select line widget
+![image](https://user-images.githubusercontent.com/82836111/139922487-39de5565-50d2-46b1-ab7e-c747c857ff19.png)
 
-## Try yourself
+Select metrics
+You will see a metric graph. Under All metrics, search and choose EC2 (since we are going to watch the metrics of EC2 which we created earlier).
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Under EC2, choose Per-Instance Metrics and select any of your Instace Ids and press create widget.
+![image](https://user-images.githubusercontent.com/82836111/139922646-b5f7f11d-e3c3-4b9f-b8bd-7be316ac24a7.png)
 
-### Step 1 — Summary of Step
+You have created a custom dashboard.
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
