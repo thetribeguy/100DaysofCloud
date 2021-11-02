@@ -56,9 +56,3 @@ Sample URL: 52.90.56.138/test.html
 ![Screen Shot 2021-11-02 at 12 10 42 PM (2)](https://user-images.githubusercontent.com/82836111/139898841-449f0676-3631-4d65-bb41-a86521bded3a.png)
 
 
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
