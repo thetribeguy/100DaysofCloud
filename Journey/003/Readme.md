@@ -2,7 +2,7 @@
 
 # Day 3 - Create and Publish a web page via EC2
 
-## Introduction
+## Prerequisite
 
 Complete Day 2 - Launcing EC2
 
@@ -14,29 +14,17 @@ Go through steps of launcing EC2 or make a new one. (Day 2)
 
 Switch to root user: sudo su
 
-Now run the updates using the following command: 
+Now run the updates using the following command: yum -y update
 
-yum -y update
-
-Once completed, lets install and run an apache server
-
-Install the Apache web server: 
-
-yum install httpd
+Install the Apache web server: yum install httpd
 
 When prompted, press "Y" to confirm.
 
-Start the web server:
+Start the web server: systemctl start httpd
 
-systemctl start httpd
+Now enable httpd: systemctl enable httpd
 
-Now enable httpd: 
-
-systemctl enable httpd
-
-Check the web server status:
-
-systemctl status httpd
+Check the web server status: systemctl status httpd
 
 You can see the active status is running.
 
@@ -49,33 +37,23 @@ Example: http://3.80.149.180![Screen Shot 2021-11-02 at 11 49 23 AM (2)](https:/
 
 ### Step 3 - Create and publish web page
 
-After installing apache server, navigate to the html folder where we will put our html page to be published. Use command:
+After installing apache server, navigate to the html folder where we will put our html page to be published. Use command: cd /var/www/html/
 
-cd /var/www/html/
-
-Create a sample test.html file using nano editor: 
-
-nano test.html
+Create a sample test.html file using nano editor: nano test.html
 
 Enter sample HTML content provided below in the file and save the file with Ctrl+X. Click Y to confirm the save, then press Enter to confirm filename.
 
 <HTML> Hi its Ayo's page </HTML>
 
-Restart the web server by using the following command: 
-
-systemctl restart httpd
+Restart the web server by using the following command:  systemctl restart httpd
 
 Now enter the file name, i.e., /test.html after the public IPv4 Address which you got when you created the ec2 instance in the browser, and you can see your HTML content.
 
 Make sure URL Protocol is http not https.
 
-Syntax: http://<Your_Public_IPv4_Address>/test.html
-
 Sample URL: 52.90.56.138/test.html
 
 ![Screen Shot 2021-11-02 at 12 10 42 PM (2)](https://user-images.githubusercontent.com/82836111/139898841-449f0676-3631-4d65-bb41-a86521bded3a.png)
-
-
 
 
 
