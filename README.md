@@ -31,7 +31,7 @@ Day 3 - [Create and Publish a web page via EC2](Journey/003/Readme.md)
 
 Day 4 - [Create AMI from EC2](Journey/004/Readme.md)
 
-Day 5 - [Connecting EC2 through terminal](Journey/005/Readme.md)
+Day 5 - [Connecting EC2 through the terminal](Journey/005/Readme.md)
 
 Day 6 - [Creating Cloudwatch Dashboard for EC2](Journey/006/Readme.md)
 
