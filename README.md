@@ -19,9 +19,6 @@ Though I am 2x AWS certfied, I admittedly need more real life expereince. So, I 
 
 I'll be using Whizlabs hands-on labs & content, as well as personal interest projects for this 100 days challenge. At the end of this project, I hope to achieve my third certification and gain reliable real life skills as an architect to be used in the workplace.
 
-I will also be documenting my progress on Social media, sharing tips, guides, and mini tutorials on how to complete some of these tasks.
-- [Instagram](https://instagram.com/cloud.tribe)
-- [Twitter](https://twitter.com/thetribeguy)
 - [LinkedIn](https://www.linkedin.com/in/ayokanmi-omolewa/)
 
 ## Head in the Clouds
