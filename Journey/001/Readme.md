@@ -146,10 +146,3 @@ In the Summary, you can see the Access level.
 Review the policy and then click on Create policy.
 ![image](https://user-images.githubusercontent.com/82836111/138778510-e6de8878-57b9-41ea-874f-e819c1862522.png)
 
-
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
