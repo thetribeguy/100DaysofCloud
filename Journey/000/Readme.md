@@ -27,9 +27,3 @@ Click on "Services". Here you will find the whole list of AWS services available
 
 EXPLORE.
 
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
