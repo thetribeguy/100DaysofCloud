@@ -90,9 +90,3 @@ Enter the exit command to go back to ec2-user then again exit to log out.
 In this way, you can connect to your instance using SSH from your console without using a key pair.
 
 
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
