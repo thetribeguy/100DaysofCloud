@@ -36,7 +36,7 @@ Day 3 - [Create and Publish a web page via EC2](Journey/003/Readme.md)
 
 Day 4 - [Create AMI from EC2](Journey/004/Readme.md)
 
-Day 5 - [Connecting EC2 through putty/terminal](Journey/005/Readme.md)
+Day 5 - [Connecting EC2 through terminal](Journey/005/Readme.md)
 
 Day 6 - [C](Journey/006/Readme.md)
 
