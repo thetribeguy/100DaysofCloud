@@ -51,8 +51,3 @@ Enter the IP Address in the Browser.
 
 It should show your test apache page and the /test.html page.
 
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
