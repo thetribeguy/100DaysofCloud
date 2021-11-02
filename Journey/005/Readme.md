@@ -1,4 +1,4 @@
- Day 5 - Connecting EC2 through putty/terminal
+ Day 5 - Connecting EC2 through terminal
 
 ## Prerequisite
 
