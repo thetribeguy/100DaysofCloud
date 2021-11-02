@@ -8,7 +8,7 @@ Complete Day 2 - Launcing EC2
 
 ### Step 1 — Create a VPC
 
-Go through steps of launcing EC2 or make a new one.
+Go through steps of launcing EC2 or make a new one. (Day 2)
 
 ### Step 2 - Install an Apache Server
 
