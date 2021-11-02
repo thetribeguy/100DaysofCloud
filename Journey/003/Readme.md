@@ -32,7 +32,7 @@ You can test that your web server is properly installed and started by entering 
 
 Make sure the URL Protocol is http not https.
 
-Example: http://3.80.149.180![Screen Shot 2021-11-02 at 11 49 23 AM (2)](https://user-images.githubusercontent.com/82836111/139897761-c2fbed67-09e2-41ce-a02f-88b2eab2a8b4.png)
+![Screen Shot 2021-11-02 at 11 49 23 AM (2)](https://user-images.githubusercontent.com/82836111/139900878-138d6fa0-7d36-45c4-9b2a-3c6dbc25956d.png)
 
 
 ### Step 3 - Create and publish web page
