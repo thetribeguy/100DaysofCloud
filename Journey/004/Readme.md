@@ -1,49 +1,55 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+# Day 3 - Create AMI from EC2
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Complete Day 3 
 
-## Use Case
+## What is AMI?
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+AMI stands for Amazon Machine Image. It's a master image for the creation of virtual servers i.e., EC2 instances in the AWS environment.
 
-## Cloud Research
+AMIs are categorized according to region, operating system, system architecture (32 or 64 bit), launch permissions and whether they are backed by Amazon EBS or by the Instance Store.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+AMI includes a template for the root volume required for an instance; typical example might contain an operating system, an application server and applications.
 
-## Try yourself
+Any data on the instance store volumes persists as-long-as the instance is running i.e., the data gets deleted once the instance is terminated.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+After the introduction of Amazon EBS, Amazon introduced AMIs that are backed by Amazon EBS i.e., the root device for an instance launched from the AMI is an Amazon EBS volume created from an EBS Snapshot.
 
-### Step 1 — Summary of Step
+Amazon recommends using EBS backed AMIs, because they launch faster and use persistent storage.
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### Step 1 
 
-![Screenshot](https://via.placeholder.com/500x300)
+Navigte to EC2 dashboard and select your instance created with the test.html page . Click on Actions. Under Image and templates, click on Create Image
 
-### Step 3 — Summary of Step
+![image](https://user-images.githubusercontent.com/82836111/139907460-2fc69473-99b2-4d90-a433-c4669fb79287.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+Navigte to EC2 dashboard and select your instance. Click on Actions. Under Image and templates, click on Create Image
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### Step 2
 
-## Next Steps
+In the pop up window, enter a name for the image. Leave other details as default. Click on Create image.
 
-✍️ Describe what you think you think you want to do next.
+After this AMI is availble, Now we can use this Image AMI to create brand new instances.
+
+## Step 3
+
+Select the AMI and press launch
+![image](https://user-images.githubusercontent.com/82836111/139907822-a74bbf04-ad46-48c9-9bf1-c73662c4662f.png)
+
+Choose an instance type. 
+Configure Instance Details: 
+
+Auto-assign Public IP: Select Enable
+
+Launch without a key pair andN avigate to the instances menu and copy the IPv4 Public IP address of the created EC2 instance.
+Enter the IP Address in the Browser.
+
+It should show your test apache page and the /test.html page.
 
 ## Social Proof
 
