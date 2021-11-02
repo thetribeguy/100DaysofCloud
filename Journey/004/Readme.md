@@ -1,6 +1,6 @@
 
 
-# Day 3 - Create AMI from EC2
+# Day 4 - Create AMI from EC2
 
 ## Prerequisite
 
