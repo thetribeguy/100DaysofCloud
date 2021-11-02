@@ -43,7 +43,7 @@ Create a sample test.html file using nano editor: nano test.html
 
 Enter sample HTML content provided below in the file and save the file with Ctrl+X. Click Y to confirm the save, then press Enter to confirm filename.
 
-<HTML> Hi its Ayo's page </HTML>
+"<HTML> Hi its Ayo's page </HTML>"
 
 Restart the web server by using the following command:  systemctl restart httpd
 
