@@ -1,4 +1,4 @@
-## Day 5 - Connecting EC2 through terminal
+## Day 5 - Connecting EC2 through the terminal
 
 ## Prerequisite
 
@@ -12,11 +12,12 @@ Create a new EC2 instance with the same settings as before but this time, on the
 
 Open the terminal. (macbook)
 
-Navigate to the location where your key pair is downloaded and stored on your local machine. For example, if the key.pem file you downloaded dring set up, is located on the desktop, in the terminal you would navigate to the desktop using: cd /desktop (CD = change directory). Run the pwd command to see which directory you are currently in.cd
+Navigate to the location where your key pair is downloaded and stored on your local machine. For example, if the key.pem file you downloaded during set up is located on the desktop, in the terminal you would navigate to the desktop using: cd /desktop (CD = change directory). 
+Run the 'pwd' command to see which directory you are currently in.
 
-To update Permissions, run the following command
+To update Permissions on the key file, run the following command
 
-chmod 400 keypair (Enter your key pair name)
+chmod 400 keypair.pem (Enter your key pair name)
 
 SSH and connect to the EC2 Instance, enter the following command:
 
