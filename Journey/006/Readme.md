@@ -14,6 +14,7 @@ Click on create dashboard and enter a name.
 
 ### Step 2
 On the next page, select line widget
+
 ![image](https://user-images.githubusercontent.com/82836111/139922487-39de5565-50d2-46b1-ab7e-c747c857ff19.png)
 
 Select metrics
