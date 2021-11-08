@@ -1,52 +1,45 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+## Day 7 - Configuring S3
+![image](https://user-images.githubusercontent.com/82836111/140799029-e4fb5cdf-6f8d-4282-b7e4-1b052df99a01.png)
 
-# New post title here
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+S3 stands for Simple Storage Service. It provides object storage through a web service interface. Each object is stored as a file with its metadata included and is given an ID number. Objects uploaded to S3 are stored in containers called Buckets, whose names are unique and they organize the Amazon S3 namespace at the highest level. 
 
-## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+### Step 1 - Create a bucket
 
-## Use Case
+From the AWS console main page, search and navigate to S3.
+In the right menu, click create bucket
+Bucket settings for Block Public Access: Uncheck the option, Block all public access and select the check box option of Acknowledgment.
+Leave all settings as default and press create.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+### Step 2 - Upload an object
+Click on your bucket you just created.
+Click on objects and press upload, and upload an image file.
+![image](https://user-images.githubusercontent.com/82836111/140804009-52eccb45-9e45-4835-ab25-a33c16149232.png)
 
-## Cloud Research
+### Step 2 - Enable access
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Under Objects, click on your file you uploaded. You will see the image details like Owner, size, link, etc.
 
-## Try yourself
+A URL will be listed under Object URL:
+![image](https://user-images.githubusercontent.com/82836111/140804676-8c58d9be-5b85-48fd-acb7-7abb8d360937.png)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+You will see an AccessDenied message, which means the object is not publicly accessible.
+![image](https://user-images.githubusercontent.com/82836111/140804709-13848956-7c8b-414e-931a-73644e2c8fb4.png)
 
-### Step 1 — Summary of Step
+Now go to the image page in the bucket and press the permissions tab. Scroll down to Access Control List
+Click on the Edit button on the Right side of it.
+Add read access to everyone and save changes.
 
-![Screenshot](https://via.placeholder.com/500x300)
+Open image Object URL in a new tab or return to the browser tab that displayed Access Denied and refresh the page.
 
-### Step 1 — Summary of Step
+You can see your image is loaded successfully and publicly accessible now.
 
-![Screenshot](https://via.placeholder.com/500x300)
+Now scroll a little bit below and check I understand the effects of these changes on this object. Checkbox.
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
 
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
