@@ -24,6 +24,7 @@ Click on objects and press upload, and upload an image file.
 Under Objects, click on your file you uploaded. You will see the image details like Owner, size, link, etc.
 
 A URL will be listed under Object URL:
+
 ![image](https://user-images.githubusercontent.com/82836111/140804676-8c58d9be-5b85-48fd-acb7-7abb8d360937.png)
 
 You will see an AccessDenied message, which means the object is not publicly accessible.
