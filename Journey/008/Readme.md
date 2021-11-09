@@ -29,7 +29,7 @@ Navigate to the IAM dashboard > roles > create a role.
 For AWS Service, choose EC2 and S3fullaccess for permissions.
 Enter tags and then create role.
 
-### Step 2 - 
+### Step 2 - Connect to S3
 
 SSH into the instance you created from Day 5.
 
@@ -57,8 +57,6 @@ aws s3 ls s3://<your_bucket_name>
 
 
 
-
-### Step 2 - Enable access
 
 
 
