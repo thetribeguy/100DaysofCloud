@@ -61,7 +61,7 @@ SNS Topic ARN in the Resources section below
 
 S3 bucket ARN in the Condition section below
 
-  {
+{
   "Version": "2008-10-17",
   "Id": "__default_policy_ID",
   "Statement": [
@@ -82,10 +82,10 @@ S3 bucket ARN in the Condition section below
         "SNS:Publish",
         "SNS:Receive"
       ],
-      "Resource": "<Your_SNS_Topic_ARN>",
+      "Resource": "YOUR SNS TOPIC ARN",
       "Condition": {
         "ArnLike": {
-          "aws:SourceArn": "<Your_Bucket_ARN>"
+          "aws:SourceArn": "YOUR BUCKET ARN"
         }
       }
     }
