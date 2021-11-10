@@ -23,7 +23,7 @@ I'll be using Whizlabs hands-on labs & content, as well as personal interest pro
 
 Day 0 - [Exploration](Journey/000/Readme.md)
 
-Day 1 - [IAM](Journey/001/Readme.md)
+Day 1 - [IAM users, groups, roles, and policy](Journey/001/Readme.md)
 
 Day 2 - [Launching EC2 Machine and Connecting through Browser-Based SSH](Journey/002/Readme.md)
 
@@ -35,13 +35,13 @@ Day 5 - [Connecting EC2 through the terminal](Journey/005/Readme.md)
 
 Day 6 - [Creating Cloudwatch Dashboard for EC2](Journey/006/Readme.md)
 
-Day 7 - [](Journey/007/Readme.md)
+Day 7 - [Configuring S3](Journey/007/Readme.md)
 
-Day 8 - [](Journey/008/Readme.md)
+Day 8 - [Accessing S3 with IAM roles](Journey/008/Readme.md)
 
-Day 9 - [](Journey/009/Readme.md)
+Day 9 - [Create a static website via S3](Journey/009/Readme.md)
 
-Day 10 - [](Journey/010/Readme.md)
+Day 10 - [Creating and Subscribing to SNS Topics, Adding SNS event for S3 bucket](Journey/010/Readme.md)
 
 ## Walking down the road
 
