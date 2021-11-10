@@ -19,7 +19,7 @@ Click on your bucket you just created.
 Click on objects and press upload, and upload an image file.
 ![image](https://user-images.githubusercontent.com/82836111/140804009-52eccb45-9e45-4835-ab25-a33c16149232.png)
 
-### Step 2 - Enable access
+### Step 3 - Enable access
 
 Under Objects, click on your file you uploaded. You will see the image details like Owner, size, link, etc.
 
