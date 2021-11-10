@@ -9,7 +9,7 @@ SNS acts as a single message bus that can message to a variety of devices and pl
 
 ![image](https://user-images.githubusercontent.com/82836111/140993237-63b3ff85-d4f8-4b6c-8525-d70ddd609412.png)
 
-### Step 1 - Create SNS Topic
+## Step 1 - Create SNS Topic
 
 Navigate to SNS dashboard, click create topic.
 
@@ -29,7 +29,7 @@ Press create topic
 
 Copy this ARN.
 
-### Step 2 - Subscribe to SNS topic
+## Step 2 - Subscribe to SNS topic
 Once the SNS topic is created, scroll down below and click on create subscription.
 Under Details: 
 
@@ -49,7 +49,7 @@ You will receive an email confirming your subscription to your email.
   
 Go to your S3 bucket of choice and copy it ARN as well.
 
-### Step 3 - Update SNS Topic Access Policy
+## Step 3 - Update SNS Topic Access Policy
   
 Navigate back to the SNS page.
 
@@ -95,7 +95,7 @@ S3 bucket ARN in the Condition section below
   Save.
 
 
-### Step 4 - Create S3 Event
+## Step 4 - Create S3 Event
   
 Navigate back to the S3 page.
 
@@ -119,7 +119,7 @@ Click on Save changes.
   
   ![image](https://user-images.githubusercontent.com/82836111/141162399-9b65586d-3c9e-4040-84c8-1f0fdceef8e3.png)
 
-### Step 5 - Testing the SNS Notification
+## Step 5 - Testing the SNS Notification
   
   Open your bucket and upload a file. You should receive an email notification
   ![image](https://user-images.githubusercontent.com/82836111/141162554-83caada1-334a-4495-acd3-17286273a00d.png)
