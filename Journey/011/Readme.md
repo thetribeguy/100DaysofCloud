@@ -97,7 +97,8 @@ Click on one PrivateRouteTable and go to the Subnet Associations tab.
 
 Click on edit and Select MyPrivateSubnet from the list. Click on Save associations.
 
-PublicRouteTable: Add a route to allow Internet traffic to the VPC.
+##
+### Step 5 - Add a route to allow Internet traffic to the VPC.
 
 Select PublicRouteTable.
 
@@ -111,4 +112,11 @@ Target: Select Internet Gateway from the dropdown menu to select MyInternetGatew
 
 Click on Save changes.
 
+You have successfully completed and learned how to create public and private subnets.
+
+You have learned how to create an Internet Gateway and associate it to VPC.
+
+You now understand how public and private subnets are different (through associating Internet Gateway or not).
+
+The instances launched inside the public subnet will be able to access the internet and instances launched inside the private subnet will not have access to the internet.
 
