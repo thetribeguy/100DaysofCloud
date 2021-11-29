@@ -45,7 +45,8 @@ Day 10 - [Creating and Subscribing to SNS Topics, Adding SNS event for S3 bucket
 
 ## Walking down the road
 
-Day 11 - [](Journey/11/Readme.md)
+Day 11 - [Day 11 - Build Amazon VPC with Public and Private Subnets (from Scratch)
+](Journey/11/Readme.md)
 
 Day 12 - [](Journey/12/Readme.md)
 
