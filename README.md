@@ -68,7 +68,7 @@ Day 20 - [](Journey/20/Readme.md)
 
 ## Crossing the bridge
 
-Day 21 - [](Journey/21/Readme.md)
+Day 21 - [Encrypt an S3 bucket using AWS KMS and monitor the activities with CloudTrail](Journey/21/Readme.md)
 
 Day 22 - [](Journey/22/Readme.md)
 
