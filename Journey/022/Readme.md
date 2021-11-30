@@ -1,4 +1,4 @@
-# Install CloudWatch Logs Agent on EC2 Instance and View CloudWatch Metrics
+# Install CloudWatch Logs Agent on EC2 Instance with the command line and View CloudWatch Metrics
 
 ![image](https://user-images.githubusercontent.com/82836111/143962761-8014da02-6f3a-4072-be81-8e3e8cfa4f7f.png)
 
