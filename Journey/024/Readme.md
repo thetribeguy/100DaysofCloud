@@ -1,52 +1,110 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# AWS Access control alerts with CloudWatch and CloudTrail
+![image](https://user-images.githubusercontent.com/82836111/144146438-b8b1c627-fd9d-4e1b-8be9-afb24957a0f2.png)
 
-# New post title here
 
 ## Introduction
+Cloudwatch
+AWS Cloudwatch is the service that is used to monitor and collect the metrics from services periodically. This helps provide a clear picture for the users to understand how the resources are performing.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+It collects data in the form of logs, events and metrics and provides you with an organized view of AWS resources, services and applications that run on AWS.
 
-## Prerequisite
+You can use CloudWatch to detect anomalous behavior in your environments and to set alarms, You can visualize data from the logs and take actions to troubleshoot the issue.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+You can monitor AWS resources such as Amazon EC2, Amazon RDS, Amazon DynamoDB tables, and many others using CloudWatch.
 
-## Use Case
+You can monitor resource utilization in your account by setting up rules and events tto stop or terminate underutilized resources, reducing unnecessary cost.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+In Autoscaling, servers are stopped or launched based on the events we create in CloudWatch.
 
-## Cloud Research
+CloudWatch also offers a feature to store logs for the services running in our account. For example, the logs for lambda functions will be stored within log groups in CloudWatch. Here we can get a detailed error log from any specific function.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+CloudTrail
+AWS CloudTrail is a service that helps us monitor, survey, and audit our AWS Account. 
 
-## Try yourself
+With the help of AWS CloudTrail, the user will be able to log, monitor, and retain account activity associated with actions across the AWS infrastructure. 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+CloudTrail provides complete account activity of the Amazon Web Services. CloudTrail also manages the functions performed with the help of the AWS Management Console, program line tools, AWS SDKs, and various other AWS services.
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 1 
+Navigate to CloudTrail and click create trail
+Under Create Trail, enter these details:
 
-### Step 1 — Summary of Step
+Trail name    : Enter My_cloudtrail
+Storage Location   : Select Create a new S3 Bucket
+Trail log bucket and folder  :  Leave it as default
+Log file SSE-KMS encryption  :  Uncheck Enabled
+Additional Settings:
+Log file validation  : Uncheck Enabled
+SNS notification delivery  :  Leave it as default
+CloudWatch Logs  :  Check Enabled
 
-![Screenshot](https://via.placeholder.com/500x300)
+![image](https://user-images.githubusercontent.com/82836111/144146589-0ae5cadc-99ee-447d-bfdc-70a1694b8d64.png)
 
-### Step 3 — Summary of Step
+Log group : Leave it as default (i.e New and default log group name)
 
-![Screenshot](https://via.placeholder.com/500x300)
+IAM Role : Select New and give the Role name as whiz_role, default the rest of the settings and create trail.
 
-## ☁️ Cloud Outcome
+### Step 2
+Navigate to CloudWatch > Log Groups and click actions for the group you just created.
+Under Create filter pattern, provide the pattern you need to filter on. For this lab, we are going to filter for stopped instances.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Filter pattern                 : Enter the pattern { $.eventName= "StopInstances" }
 
-## Next Steps
+Select log data to test  : Select the cloudtrail log  in drop-down.
+![image](https://user-images.githubusercontent.com/82836111/144146759-a8ca873a-3b75-4d7d-be86-4d5d43be68e5.png)
 
-✍️ Describe what you think you think you want to do next.
+Next we will create a filter using the following details:
 
-## Social Proof
+Filter name: Enter stoppedInstancecount
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+Metric details:
 
-[link](link)
+Metric namespace  : Enter CloudTrailMetrics
+
+Metric name            : Enter EC2stoppedInstanceEventCount
+
+Metric value            : Enter 1
+
+Default value           : Leave default
+Clik Next and create.
+
+### Step 3
+Select the log group and select metric filters at the bottom. select create alarm.
+![image](https://user-images.githubusercontent.com/82836111/144146840-0f4cee80-e25c-4808-a8f1-676de300c483.png)
+
+Specify the metric conditions as follows:
+
+Namespace : CloudTrailMetrics (default)
+
+Metric name : EC2stoppedInstanceEventCount (default)
+
+Statistic        : sum (default)
+
+Period          : 5 minute (default)
+
+Conditions:
+
+Threshold type: Select Static
+
+Whenever EC2stoppedInstanceEventCount is : greater/equal than 1.
+
+Next we'll configure actions
+
+Alarm state trigger                                              : Select 
+
+Select an SNS topic                                            : select Create new topic
+
+Create a new topic                                              : Enter the topic name as My_Ec2count_topic
+
+Email endpoints that will receive the notification :  Enter your Email address to receive the alert
+Confirm in your email. Press Create alarm.
+
+### Step 4
+Stop one of your instances to test.
+![image](https://user-images.githubusercontent.com/82836111/144146974-56d4f35b-bc5c-4b42-af08-f54cdfda742e.png)
+
+
+
+
+### Step 2
