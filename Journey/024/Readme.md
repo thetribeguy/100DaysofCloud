@@ -104,7 +104,3 @@ Confirm in your email. Press Create alarm.
 Stop one of your instances to test.
 ![image](https://user-images.githubusercontent.com/82836111/144146974-56d4f35b-bc5c-4b42-af08-f54cdfda742e.png)
 
-
-
-
-### Step 2
