@@ -72,7 +72,8 @@ Day 21 - [Encrypt an S3 bucket using AWS KMS and monitor the activities with Clo
 
 Day 22 - [Install CloudWatch Logs Agent on EC2 Instance with the command line and View CloudWatch Metrics](Journey/22/Readme.md)
 
-Day 23 - [](Journey/23/Readme.md)
+Day 23 - [Access EC2 from Session manager and send SSH logs to CloudWatch
+](Journey/23/Readme.md)
 
 Day 24 - [](Journey/24/Readme.md)
 
