@@ -1,52 +1,69 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Install CloudWatch Logs Agent on EC2 Instance and View CloudWatch Metrics
 
-# New post title here
+![image](https://user-images.githubusercontent.com/82836111/143962761-8014da02-6f3a-4072-be81-8e3e8cfa4f7f.png)
 
-## Introduction
+### Step 1 - Download the CW agent
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Create an IAM role with the CloudWatchAgentServerPolicy and attach it to an EC2. SSH into this instance.
+View IAM roles, EC2, and SSH steps in week 1.
 
-## Prerequisite
+After you have SSH into your instance, run the following command to Download the Cloudwatch Unified Agent:
+wget https://s3.amazonaws.com/amazoncloudwatch-agent/amazon_linux/amd64/latest/amazon-cloudwatch-agent.rpm
+![image](https://user-images.githubusercontent.com/82836111/143962909-1b42ad48-06a8-4371-aa8f-e113c2aa7b26.png)
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
 
-## Use Case
+### Step 2 - Install the Cloudwatch Agent
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+use the following command:
+sudo rpm -U ./amazon-cloudwatch-agent.rpm
+![image](https://user-images.githubusercontent.com/82836111/143962980-45d109f6-997d-446d-a6ed-3ae44b586509.png)
 
-## Cloud Research
+### Step 3 - Configure the CW agent
+Open the setup wizard using the command"
+sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
+![image](https://user-images.githubusercontent.com/82836111/143963031-afec2a83-28fb-42c7-8193-2baa60fc8dfc.png)
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Enter these values asked during setup:
 
-## Try yourself
+On which OS are you planning to use the agent? : Enter 1
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Are you using EC2 or On-Premises? : Enter 1
 
-### Step 1 — Summary of Step
+Which user are you planning to run the agent? : Enter 1
 
-![Screenshot](https://via.placeholder.com/500x300)
+Do you want to turn on the StatsD daemon? : Enter 2
 
-### Step 1 — Summary of Step
+Do you want to monitor metrics from CollectD? : Enter 2
 
-![Screenshot](https://via.placeholder.com/500x300)
+Do you want to monitor any host metrics? Enter 1
 
-### Step 3 — Summary of Step
+Do you want to monitor CPU metrics per core? Enter 1
 
-![Screenshot](https://via.placeholder.com/500x300)
+Do you want to add ec2 dimensions into all of your metrics if the info is available? : Enter 1
 
-## ☁️ Cloud Outcome
+Would you like to collect your metrics at high resolution? : Enter 1 (1s)
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Which default metrics config do you want?: Enter 2
 
-## Next Steps
+Are you satisfied with the above config? Enter 1
 
-✍️ Describe what you think you think you want to do next.
+Do you have any existing CloudWatch log Agent configuration file to import for migration? : Enter 2
 
-## Social Proof
+Do you want to monitor any log files? : Enter 2
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+Do you want to store the config in the SSM parameter store? : Enter 2
 
-[link](link)
+Start the Agent:
+
+sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s
+![image](https://user-images.githubusercontent.com/82836111/143963061-1adca843-28a4-48c0-865c-735fe3652e72.png)
+
+
+Check Agent Status
+
+systemctl status amazon-cloudwatch-agent
+![image](https://user-images.githubusercontent.com/82836111/143963076-98a37902-765f-4c66-becb-407003a0f52f.png)
+
+
+
+Navigate to Cloudwatch on the AWS console and in the Metrics section, the agent should be listed there with the metrics included.
