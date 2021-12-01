@@ -46,201 +46,201 @@ Day 10 - [Creating and Subscribing to SNS Topics, Adding SNS event for S3 bucket
 ## Walking down the road
 
 Day 11 - [Day 11 - Build Amazon VPC with Public and Private Subnets (from Scratch)
-](Journey/11/Readme.md)
+](Journey/011/Readme.md)
 
-Day 12 - [](Journey/12/Readme.md)
+Day 12 - [](Journey/012/Readme.md)
 
-Day 13 - [](Journey/13/Readme.md)
+Day 13 - [](Journey/013/Readme.md)
 
-Day 14 - [](Journey/14/Readme.md)
+Day 14 - [](Journey/014/Readme.md)
 
-Day 15 - [](Journey/15/Readme.md)
+Day 15 - [](Journey/015/Readme.md)
 
-Day 16 - [](Journey/16/Readme.md)
+Day 16 - [](Journey/016/Readme.md)
 
-Day 17 - [](Journey/17/Readme.md)
+Day 17 - [](Journey/017/Readme.md)
 
-Day 18 - [](Journey/18/Readme.md)
+Day 18 - [](Journey/018/Readme.md)
 
-Day 19 - [](Journey/19/Readme.md)
+Day 19 - [](Journey/019/Readme.md)
 
-Day 20 - [](Journey/20/Readme.md)
+Day 20 - [](Journey/020/Readme.md)
 
 ## Crossing the bridge
 
-Day 21 - [Encrypt an S3 bucket using AWS KMS and monitor the activities with CloudTrail](Journey/21/Readme.md)
+Day 21 - [Encrypt an S3 bucket using AWS KMS and monitor the activities with CloudTrail](Journey/021/Readme.md)
 
-Day 22 - [Install CloudWatch Logs Agent on EC2 Instance with the command line and View CloudWatch Metrics](Journey/22/Readme.md)
+Day 22 - [Install CloudWatch Logs Agent on EC2 Instance with the command line and View CloudWatch Metrics](Journey/022/Readme.md)
 
 Day 23 - [Access EC2 from Session manager and send SSH logs to CloudWatch
-](Journey/23/Readme.md)
+](Journey/023/Readme.md)
 
 Day 24 - [AWS Access control alerts with CloudWatch and CloudTrail
-](Journey/24/Readme.md)
+](Journey/024/Readme.md)
 
 Day 25 - [Finding vulnerabilities on EC2 instance using Amazon Inspector
-](Journey/25/Readme.md)
+](Journey/025/Readme.md)
 
-Day 26 - [](Journey/26/Readme.md)
+Day 26 - [](Journey/026/Readme.md)
 
-Day 27 - [](Journey/27/Readme.md)
+Day 27 - [](Journey/027/Readme.md)
 
-Day 28 - [](Journey/28/Readme.md)
+Day 28 - [](Journey/028/Readme.md)
 
-Day 29 - [](Journey/29/Readme.md)
+Day 29 - [](Journey/029/Readme.md)
 
-Day 30 - [](Journey/30/Readme.md)
+Day 30 - [](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
 
-Day 31 - [](Journey/31/Readme.md)
+Day 31 - [](Journey/031/Readme.md)
 
-Day 32 - [](Journey/32/Readme.md)
+Day 32 - [](Journey/032/Readme.md)
 
-Day 33 - [](Journey/33/Readme.md)
+Day 33 - [](Journey/033/Readme.md)
 
-Day 34 - [](Journey/34/Readme.md)
+Day 34 - [](Journey/034/Readme.md)
 
-Day 35 - [](Journey/35/Readme.md)
+Day 35 - [](Journey/035/Readme.md)
 
-Day 36 - [](Journey/36/Readme.md)
+Day 36 - [](Journey/036/Readme.md)
 
-Day 37 - [](Journey/37/Readme.md)
+Day 37 - [](Journey/037/Readme.md)
 
-Day 38 - [](Journey/38/Readme.md)
+Day 38 - [](Journey/038/Readme.md)
 
-Day 39 - [](Journey/39/Readme.md)
+Day 39 - [](Journey/039/Readme.md)
 
-Day 40 - [](Journey/40/Readme.md)
+Day 40 - [](Journey/040/Readme.md)
 
 ## Trekking the dunes
 
-Day 41 - [](Journey/41/Readme.md)
+Day 41 - [](Journey/041/Readme.md)
 
-Day 42 - [](Journey/42/Readme.md)
+Day 42 - [](Journey/042/Readme.md)
 
-Day 43 - [](Journey/43/Readme.md)
+Day 43 - [](Journey/043/Readme.md)
 
-Day 44 - [](Journey/44/Readme.md)
+Day 44 - [](Journey/044/Readme.md)
 
-Day 45 - [](Journey/45/Readme.md)
+Day 45 - [](Journey/045/Readme.md)
 
-Day 46 - [](Journey/46/Readme.md)
+Day 46 - [](Journey/046/Readme.md)
 
-Day 47 - [](Journey/47/Readme.md)
+Day 47 - [](Journey/047/Readme.md)
 
-Day 48 - [](Journey/48/Readme.md)
+Day 48 - [](Journey/048/Readme.md)
 
-Day 49 - [](Journey/49/Readme.md)
+Day 49 - [](Journey/049/Readme.md)
 
-Day 50 - [](Journey/50/Readme.md)
+Day 50 - [](Journey/050/Readme.md)
 
 ## Winding through the canyons
 
-Day 51 - [](Journey/51/Readme.md)
+Day 51 - [](Journey/051/Readme.md)
 
-Day 52 - [](Journey/52/Readme.md)
+Day 52 - [](Journey/052/Readme.md)
 
-Day 53 - [](Journey/53/Readme.md)
+Day 53 - [](Journey/053/Readme.md)
 
-Day 54 - [](Journey/54/Readme.md)
+Day 54 - [](Journey/054/Readme.md)
 
-Day 55 - [](Journey/55/Readme.md)
+Day 55 - [](Journey/055/Readme.md)
 
-Day 56 - [](Journey/56/Readme.md)
+Day 56 - [](Journey/056/Readme.md)
 
-Day 57 - [](Journey/57/Readme.md)
+Day 57 - [](Journey/057/Readme.md)
 
-Day 58 - [](Journey/58/Readme.md)
+Day 58 - [](Journey/058/Readme.md)
 
-Day 59 - [](Journey/59/Readme.md)
+Day 59 - [](Journey/059/Readme.md)
 
-Day 60 - [](Journey/60/Readme.md)
+Day 60 - [](Journey/060/Readme.md)
 
 ## Stumbling through the caves
 
-Day 61 - [](Journey/61/Readme.md)
+Day 61 - [](Journey/061/Readme.md)
 
-Day 62 - [](Journey/62/Readme.md)
+Day 62 - [](Journey/062/Readme.md)
 
-Day 63 - [](Journey/63/Readme.md)
+Day 63 - [](Journey/063/Readme.md)
 
-Day 64 - [](Journey/64/Readme.md)
+Day 64 - [](Journey/064/Readme.md)
 
-Day 65 - [](Journey/65/Readme.md)
+Day 65 - [](Journey/065/Readme.md)
 
-Day 66 - [](Journey/66/Readme.md)
+Day 66 - [](Journey/066/Readme.md)
 
-Day 67 - [](Journey/67/Readme.md)
+Day 67 - [](Journey/067/Readme.md)
 
-Day 68 - [](Journey/68/Readme.md)
+Day 68 - [](Journey/068/Readme.md)
 
-Day 69 - [](Journey/69/Readme.md)
+Day 69 - [](Journey/069/Readme.md)
 
-Day 70 - [](Journey/70/Readme.md)
+Day 70 - [](Journey/070/Readme.md)
 
 ## Resting at the Lagoon
 
-Day 71 - [](Journey/61/Readme.md)
+Day 71 - [](Journey/061/Readme.md)
 
-Day 72 - [](Journey/62/Readme.md)
+Day 72 - [](Journey/062/Readme.md)
 
-Day 73 - [](Journey/63/Readme.md)
+Day 73 - [](Journey/063/Readme.md)
 
-Day 74 - [](Journey/64/Readme.md)
+Day 74 - [](Journey/064/Readme.md)
 
-Day 75 - [](Journey/65/Readme.md)
+Day 75 - [](Journey/065/Readme.md)
 
-Day 76 - [](Journey/66/Readme.md)
+Day 76 - [](Journey/066/Readme.md)
 
-Day 77 - [](Journey/67/Readme.md)
+Day 77 - [](Journey/067/Readme.md)
 
-Day 78 - [](Journey/68/Readme.md)
+Day 78 - [](Journey/068/Readme.md)
 
-Day 79 - [](Journey/69/Readme.md)
+Day 79 - [](Journey/069/Readme.md)
 
-Day 80 - [](Journey/70/Readme.md)
+Day 80 - [](Journey/070/Readme.md)
 
 ## Up into the mountains
 
-Day 81 - [](Journey/81/Readme.md)
+Day 81 - [](Journey/081/Readme.md)
 
-Day 82 - [](Journey/82/Readme.md)
+Day 82 - [](Journey/082/Readme.md)
 
-Day 83 - [](Journey/83/Readme.md)
+Day 83 - [](Journey/083/Readme.md)
 
-Day 84 - [](Journey/84/Readme.md)
+Day 84 - [](Journey/084/Readme.md)
 
-Day 85 - [](Journey/85/Readme.md)
+Day 85 - [](Journey/085/Readme.md)
 
-Day 86 - [](Journey/86/Readme.md)
+Day 86 - [](Journey/086/Readme.md)
 
-Day 87 - [](Journey/87/Readme.md)
+Day 87 - [](Journey/087/Readme.md)
 
-Day 88 - [](Journey/88/Readme.md)
+Day 88 - [](Journey/088/Readme.md)
 
-Day 89 - [](Journey/89/Readme.md)
+Day 89 - [](Journey/089/Readme.md)
 
-Day 90 - [](Journey/90/Readme.md)
+Day 90 - [](Journey/090/Readme.md)
 
 ## Into the sky to touch the cloud!
 
-Day 91 - [](Journey/91/Readme.md)
+Day 91 - [](Journey/091/Readme.md)
 
-Day 92 - [](Journey/92/Readme.md)
+Day 92 - [](Journey/092/Readme.md)
 
-Day 93 - [](Journey/93/Readme.md)
+Day 93 - [](Journey/093/Readme.md)
 
-Day 94 - [](Journey/94/Readme.md)
+Day 94 - [](Journey/094/Readme.md)
 
-Day 95 - [](Journey/95/Readme.md)
+Day 95 - [](Journey/095/Readme.md)
 
-Day 96 - [](Journey/96/Readme.md)
+Day 96 - [](Journey/096/Readme.md)
 
-Day 97 - [](Journey/97/Readme.md)
+Day 97 - [](Journey/097/Readme.md)
 
-Day 98 - [](Journey/98/Readme.md)
+Day 98 - [](Journey/098/Readme.md)
 
-Day 99 - [](Journey/99/Readme.md)
+Day 99 - [](Journey/099/Readme.md)
 
 Day 100 - [](Journey/100/Readme.md)
