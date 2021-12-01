@@ -1,52 +1,103 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Finding vulnerabilities on EC2 instance using Amazon Inspector
 
-# New post title here
+What is Amazon Inspector
+Amazon Inspector allows us to find vulnerabilities on configured EC2 instances.
 
-## Introduction
+There are 2 types of assessment runs are performed, Network assessment and Host assessment
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Network assessment has Network Reachability package rule while Host assessment has three types of package rule i.e. Common vulnerabilities and exposures, Center for Internet Security (CIS) Benchmarks, Security best practices for Amazon Inspector.
 
-## Prerequisite
+There are mainly three types of Severity levels for rules in Amazon Inspector i.e. High, Medium, and Low.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Informational severity of findings is just best practices recommended by Amazon Inspector. 
+![image](https://user-images.githubusercontent.com/82836111/144154237-6751a9e1-7335-434d-80ca-f3733a69562a.png)
 
-## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+### Step 1 
 
-## Cloud Research
+Launch a default instance with the following security group setting:
+Configure Security Group:
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Security group name: Inspector-SG
+Description: Security group for Inspector EC2
+To add All traffic,
+Choose Type: SSH
+Source: Custom (Allow specific IP address) or Anywhere (From ALL IP addresses accessible).
 
-## Try yourself
+Another rule:
+Choose type: Custom TCP Rule
+Port Range: 20
+Source: Custom and 0.0.0.0/0
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Another rule:
+Choose type: Custom TCP Rule
+Port Range: 21
+Source: Custom and 0.0.0.0/0
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+Choose type: Custom TCP Rule
+Port Range: 23
+Source: Custom and 0.0.0.0/0
+Launch
 
-### Step 1 — Summary of Step
+### Step 2
+SSH into the instance and install the AWS Agent
+Download the agent installation script by running one of the following commands:
 
-![Screenshot](https://via.placeholder.com/500x300)
+wget https://inspector-agent.amazonaws.com/linux/latest/install
 
-### Step 3 — Summary of Step
+curl -O https://inspector-agent.amazonaws.com/linux/latest/install
 
-![Screenshot](https://via.placeholder.com/500x300)
+To install the agent, run the following command:
 
-## ☁️ Cloud Outcome
+sudo bash install
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### Step 3
+Navigate to inspector (classic version)
+Click on the Cancel button present on the right bottom corner, to see the options. Run weekly, Run once and Advanced setup is for quick setup.
+![image](https://user-images.githubusercontent.com/82836111/144154616-a918cb5b-aa7a-47da-ad30-872de46bda69.png)
+On the Leftside bar, click on the Assessment targets.
 
-## Next Steps
+Click on the Create button.
 
-✍️ Describe what you think you think you want to do next.
+Fill in the details, Name: Demo
 
-## Social Proof
+All instances: Select Include all EC2 instances in this AWS account and region.
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+Install Agents: Selected by Default
 
-[link](link)
+Click on the Save button, to create an Assessment Target.
+![image](https://user-images.githubusercontent.com/82836111/144154640-9e3d856d-2c0a-4f41-bf75-2edec379c06f.png)
+and press OK on the popup.
+
+### Step 4
+Click Assessment template and create.
+![image](https://user-images.githubusercontent.com/82836111/144154694-de324571-2481-44c8-b1f4-6b5b33c0494f.png)
+![image](https://user-images.githubusercontent.com/82836111/144154709-624fdfb6-3086-4f32-9493-08f6fdf6da51.png)
+
+It's created, in the next step. You will run the template to find the vulnerabilities on the created EC2 instance.
+![image](https://user-images.githubusercontent.com/82836111/144154753-70910ab0-72a5-4a8a-b12d-6dc7c7379b64.png)
+
+### Step 5
+Select the template and click Run
+To see the Assessment Run and its result, click on the Assessment runs present on the left sidebar.
+
+Click on the number of findings to know about the vulnerabilities found by Inspector on the EC2 instance.
+![image](https://user-images.githubusercontent.com/82836111/144154793-ebb0049b-7a3d-45a7-b3cd-2d535ba1a642.png)
+![image](https://user-images.githubusercontent.com/82836111/144154800-a1587a32-1afb-44cb-9e7a-65f717730782.png)
+
+### Step 6
+Click on the Assessment runs, present on the left sidebar.
+
+Choose the Download report button. 
+![image](https://user-images.githubusercontent.com/82836111/144154838-98443ba6-6b25-4b88-ade6-fb1691b7f65a.png)
+After you click on the Download report option, you will be prompted with a screen to select the report type and format.
+
+Keep the option default, Report type as Findings report, and report format as PDF. Click on the Generate Report button.
+
+
+
+
+
+
+Install Agents: Selected by Default
