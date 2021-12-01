@@ -75,9 +75,11 @@ Day 22 - [Install CloudWatch Logs Agent on EC2 Instance with the command line an
 Day 23 - [Access EC2 from Session manager and send SSH logs to CloudWatch
 ](Journey/23/Readme.md)
 
-Day 24 - [](Journey/24/Readme.md)
+Day 24 - [AWS Access control alerts with CloudWatch and CloudTrail
+](Journey/24/Readme.md)
 
-Day 25 - [](Journey/25/Readme.md)
+Day 25 - [Finding vulnerabilities on EC2 instance using Amazon Inspector
+](Journey/25/Readme.md)
 
 Day 26 - [](Journey/26/Readme.md)
 
