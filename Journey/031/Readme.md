@@ -1,52 +1,64 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+## Set up EKS Cluster and Configurations
 
-# New post title here
+![image](https://user-images.githubusercontent.com/82836111/148139447-41959e96-8a6b-4359-a34a-b617bf7e7880.png)
 
-## Introduction
+Amazon EKS is a managed service that is used to run Kubernetes on AWS. Using EKS users doesn’t have to maintain a Kubernetes control plan on their own. It is used to automate the deployment, scaling, and maintaining the containerized application. It works with most of the operating systems.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+EKS is integrated with various AWS services:
 
-## Prerequisite
+ECR (Elastic Container Registry) for container images.
+Elastic Load Balancer for distributing traffic.
+IAM for providing authentication and authorization.
+VPC (Virtual Private Cloud) for isolating resources.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+### Step 1 
 
-## Use Case
+Navigate to EKS and click add cluster at the right.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Fill in the fields with the default values. For the role, create or add the AmazonEKSClusterPolicy and select it in the Cluster Service Role box of the confirure cluster page and click next.
 
-## Cloud Research
+On the Specify Networking page, specify your VPC and subnets. 
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+You can leave the endpoint as public for testing purposes and click next.
 
-## Try yourself
+Leave configure logging controls as disabled and click next and create.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Step 2
 
-### Step 1 — Summary of Step
+Install AWS CLI - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+In IAM, create an access key in IAM credentials.
+In the terminal, configure credentials by entering the following commands: aws configure
+Fill in the fields.
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 3
 
-### Step 1 — Summary of Step
+Install kubectl - https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html and follow the steps to complete installation
+Ensure that the kubectl exe is in the usr/local/bin folder.
 
-![Screenshot](https://via.placeholder.com/500x300)
+Check status of cluster with the following command: aws eks --region us-east-1 describe-cluster --name Kube01 --query cluster.status 
+If it is not connecting to the endpoint , enter this command: "aws configure set region us-west-1 --profile default" to set the region parameters
 
-### Step 3 — Summary of Step
+Update Kubeconfig with the following command: aws eks --region us-east-1 update-kubeconfig --name Kube01
+Ensure that kubectl can is operating properly by the following command: "kubectl get svc"
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 4
 
-## ☁️ Cloud Outcome
+On the cluster page, select the Compute tab, and then choose Add Node Group.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+On the Configure node group page, fill out the parameters accordingly, and then choose Next.
 
-## Next Steps
+Name – Enter a unique name for your managed node group.
+Node IAM role name– Create the node instance role to use with your node group. This EC2 role should contain the following three policies:
+AmazonEKSWorkerNodePolicy, AmazonEC2ContainerRegistryReadOnly, AmazonEKS_CNI_Policy.
 
-✍️ Describe what you think you think you want to do next.
+![image](https://user-images.githubusercontent.com/82836111/148140049-44b958d8-68f8-4e94-8964-b11437e6f153.png)
 
-## Social Proof
+Create an SSH pair and add the same in the Key pair, proceed to next.
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+
+
+After following all the above image steps, leave the other settings to default and proceed further.
+
+
 
 [link](link)
